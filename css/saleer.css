@@ -1,11 +1,13 @@
 .body {
 	margin: 0;
+	text-align: center;
 }
 
 .logo {
 	width: 340px;
 	height: 28px;
 	object-fit: contain;
+	text-align: center;
 }
 
 .logo {
