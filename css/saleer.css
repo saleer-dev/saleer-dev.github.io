@@ -65,6 +65,11 @@ button.openInTelegram {
 	border-radius: 4px;
 }
 
-button.openInTelegram img {
-	padding: 0 5px 5px 0;
+button.openInTelegram:before {
+	padding: 0 0 0 0;
+	content: '';
+	background:url('https://saleer.com/landing/img/plus-03.png');
+	width: 19px;
+	height: 19px;
+	display: block;
 }
