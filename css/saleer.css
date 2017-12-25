@@ -63,7 +63,7 @@ button.openInTelegram {
 	text-transform: uppercase;
 	border: none;
 	display: block;
-	padding: 18px 28px;
+	padding: 18px 28px 21px 28px;
 	margin: 69px auto 0;
 	max-width: 284px;
 	background: -webkit-gradient(linear, left top, right top, from(#ff3541), to(#fe9926));
