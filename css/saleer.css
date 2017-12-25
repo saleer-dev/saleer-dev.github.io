@@ -84,3 +84,17 @@ button.openInTelegram:before {
 	margin-right: 12.8px;
 	display: inline-block;
 }
+
+button.launch:hover {
+cursor: pointer;
+background-color: #FABD44;
+}
+
+button.openInTelegram:focus  {
+	outline:0;
+}
+
+button:active {
+outline: none;
+border: none;
+}
