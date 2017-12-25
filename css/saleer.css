@@ -3,7 +3,8 @@ body {
 }
 
 .page {
-	margin: 42px auto;
+	margin: 42px auto 0;
+	max-width: 855px;
 }
 
 .logo {
