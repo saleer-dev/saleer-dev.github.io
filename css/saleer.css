@@ -86,12 +86,49 @@ a.openInTelegram:before {
 	display: inline-block;
 }
 
-a.launch:hover {
+a.openInTelegram:hover {
 cursor: pointer;
 background-color: #FABD44;
 }
 
-a.openInTelegram:focus  {
+a.openInTelegram:focus {
+	outline:0;
+}
+
+a.howItWorks {
+	font-family: OpenSans;
+	font-size: 19px;
+	font-weight: 600;
+	letter-spacing: 0;
+	color: #62656c;
+	text-align: center;
+	vertical-align: middle;
+	text-transform: uppercase;
+	border: none;
+	display: block;
+	margin: 50px auto 0;
+	z-index: 1;
+	text-decoration: none
+}
+
+a.howItWorks:after {
+	content: '';
+	background: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMSIgaGVpZ2h0PSIzMSIgdmlld0JveD0iMCAwIDIxIDMxIj4gICAgPGRlZnM+ICAgICAgICA8ZmlsdGVyIGlkPSJhIiB3aWR0aD0iMTA5LjElIiBoZWlnaHQ9IjE1Ny43JSIgeD0iLTQuNSUiIHk9Ii0yOC44JSIgZmlsdGVyVW5pdHM9Im9iamVjdEJvdW5kaW5nQm94Ij4gICAgICAgICAgICA8ZmVPZmZzZXQgaW49IlNvdXJjZUFscGhhIiByZXN1bHQ9InNoYWRvd09mZnNldE91dGVyMSIvPiAgICAgICAgICAgIDxmZUdhdXNzaWFuQmx1ciBpbj0ic2hhZG93T2Zmc2V0T3V0ZXIxIiByZXN1bHQ9InNoYWRvd0JsdXJPdXRlcjEiIHN0ZERldmlhdGlvbj0iMi41Ii8+ICAgICAgICAgICAgPGZlQ29sb3JNYXRyaXggaW49InNoYWRvd0JsdXJPdXRlcjEiIHJlc3VsdD0ic2hhZG93TWF0cml4T3V0ZXIxIiB2YWx1ZXM9IjAgMCAwIDAgMSAwIDAgMCAwIDEgMCAwIDAgMCAxIDAgMCAwIDEgMCIvPiAgICAgICAgICAgIDxmZU1lcmdlPiAgICAgICAgICAgICAgICA8ZmVNZXJnZU5vZGUgaW49InNoYWRvd01hdHJpeE91dGVyMSIvPiAgICAgICAgICAgICAgICA8ZmVNZXJnZU5vZGUgaW49IlNvdXJjZUdyYXBoaWMiLz4gICAgICAgICAgICA8L2ZlTWVyZ2U+ICAgICAgICA8L2ZpbHRlcj4gICAgPC9kZWZzPiAgICA8cGF0aCBmaWxsPSIjNjI2NTZDIiBmaWxsLXJ1bGU9Im5vbnplcm8iIGQ9Ik0xNTMuMDE0IDIzLjk2NmExLjQgMS40IDAgMCAwIDEuOTgtLjA0OWw4Ljc3LTkuMjFhMS44IDEuOCAwIDAgMCAwLTIuNDgzbC04Ljc3LTkuMjFhMS40IDEuNCAwIDAgMC0yLjAyOCAxLjkzMWw3LjQ1OCA3LjgzYTEgMSAwIDAgMSAwIDEuMzhsLTcuNDU4IDcuODMxYTEuNCAxLjQgMCAwIDAgLjA0OCAxLjk4eiIgZmlsdGVyPSJ1cmwoI2EpIiB0cmFuc2Zvcm09InRyYW5zbGF0ZSgtMTQ4IDIpIi8+PC9zdmc+) no-repeat;
+	width: 12.9px;
+	height: 22.9px;
+	object-fit: contain;
+	vertical-align: sub;
+	object-fit: contain;
+	margin-right: 12.8px;
+	display: inline-block;
+}
+
+a.howItWorks:hover {
+cursor: pointer;
+background-color: #FABD44;
+}
+
+a.howItWorks:focus {
 	outline:0;
 }
 
