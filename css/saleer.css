@@ -43,7 +43,7 @@ body {
 	margin: 39px auto 0;
 }
 
-.button {
+button {
    padding:0 20px 0 42px;
    border-radius: 4px;
    box-shadow: 0 3px 5px 0 rgba(0, 0, 0, 0.13);
