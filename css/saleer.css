@@ -5,7 +5,6 @@ body {
   color: #62656c;
   background-color: #FFFFFF;
   overflow-x: hidden;
-  width: 100vw;
   -webkit-font-smoothing: antialiased;
   text-rendering: optimizeLegibility;
 }
