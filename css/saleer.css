@@ -151,7 +151,7 @@ border: none;
 	font-size: 12px;
 	text-align: center;
 	color: #a5a4aa;
-margin: 0 auto 36px;
+	margin: 0 auto 36px;
 }
 
 @media screen and (max-width: 1000px) {
@@ -206,5 +206,8 @@ margin: 0 auto 36px;
 	height: 13.3px;
 	margin-left: 8px;
 	}
-	        
+    .allRightsReserved {
+	font-size: 8px;
+	margin: 0 auto 23px;
+	}        
 }
