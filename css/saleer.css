@@ -152,3 +152,11 @@ a:active {
 outline: none;
 border: none;
 }
+
+.allRightsReserved {
+	font-family: OpenSans;
+	font-size: 12px;
+	text-align: center;
+	color: #a5a4aa;
+margin: 0 auto 36px;
+}
