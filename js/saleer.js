@@ -13,10 +13,10 @@ $(window).on('resize', function() {
         }, 400);
     });
 
-$('.action_button_new').on('touchstart', function(e) {  
-    $(this).css({"background-color":"#d38c3b"});
+$('a.openInTelegram').on('touchstart', function(e) {  
+    $(this).css({"opacity":"0.75"});
 });
-$('.action_button_new').on('touchend', function(e) {  
-    $(this).css({"background-color":"#F09833"});
+$('a.openInTelegram').on('touchend', function(e) {  
+    $(this).css({"opacity":"1"});
 });
 
