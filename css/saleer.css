@@ -9,19 +9,6 @@ body {
   text-rendering: optimizeLegibility;
 }
 
-@media screen and (max-width: 1000px) {
-    .map {
-      bottom: 0;
-      left: 50%;
-      margin-left: -495.5px;
-      right: 0;
-      top: 0;
-      width: 991px; }
-    .title {
-	    font-size: 39px;
-	}    
-}
-
 .page {
 	    display: -webkit-box;
     display: -webkit-flex;
@@ -168,4 +155,17 @@ border: none;
 	text-align: center;
 	color: #a5a4aa;
 margin: 0 auto 36px;
+}
+
+@media screen and (max-width: 1000px) {
+    .map {
+      bottom: 0;
+      left: 50%;
+      margin-left: -495.5px;
+      right: 0;
+      top: 0;
+      width: 991px; }
+    .title {
+	    font-size: 39px;
+	}    
 }
