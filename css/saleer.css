@@ -211,7 +211,7 @@ body {
     line-height: 1.5;
     letter-spacing: 0;
     text-align: center;
-    color: #62656c;
+    color: #505050;
     margin: 39px auto 0;
     position: relative;
 }
@@ -267,7 +267,7 @@ a.howItWorks {
     font-size: 19px;
     font-weight: 600;
     letter-spacing: 0;
-    color: #62656c;
+    color: #505050;
     text-align: center;
     vertical-align: middle;
     text-transform: uppercase;
