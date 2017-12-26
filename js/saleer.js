@@ -23,7 +23,7 @@ $('a.openInTelegram').on('touchend', function(e) {
 $('a.howItWorks').on('touchstart', function(e) {  
     $(this).css({"opacity":"0.7"});
 });
-$('a.openInTelegram').on('touchend', function(e) {  
+$('a.howItWorks').on('touchend', function(e) {  
     $(this).css({"opacity":"1"});
 });
 
