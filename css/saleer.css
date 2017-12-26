@@ -8,8 +8,24 @@ body {
   -webkit-font-smoothing: antialiased;
   text-rendering: optimizeLegibility;
 }
-
 .page {
+	position: relative;
+}
+::-webkit-scrollbar {
+  display: none; }
+
+.map {
+  background-image: url(https://saleer.com/img/map-final.svg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  bottom: 5%;
+  left: 5%;
+  position: absolute;
+  right: 5%;
+  top: 5%; }
+
+.section1 {
 	    display: -webkit-box;
     display: -webkit-flex;
     display: -ms-flexbox;
