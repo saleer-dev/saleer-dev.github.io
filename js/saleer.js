@@ -14,7 +14,7 @@ $(window).on('resize', function() {
     });
 
 $('a.openInTelegram').on('touchstart', function(e) {  
-    $(this).css({"opacity":"0.75";"box-shadow":"none"});
+    $(this).css({"opacity":"0.7";"box-shadow":"none"});
 });
 $('a.openInTelegram').on('touchend', function(e) {  
     $(this).css({"opacity":"1";"box-shadow":"0 4px 10px 1px rgba(0, 0, 0, 0.14)"});
