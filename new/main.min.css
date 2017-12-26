@@ -1,0 +1,148 @@
+@charset "UTF-8";
+/*!
+ * Bootstrap v3.3.7 (http://getbootstrap.com)
+ * Copyright 2011-2016 Twitter, Inc.
+ * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
+ */
+/*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
+html {
+  font-family: sans-serif;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%; }
+
+body {
+  margin: 0; }
+
+/*! Source: https://github.com/h5bp/html5-boilerplate/blob/master/src/css/main.css */
+@media print {
+  *,
+  *:before,
+  *:after {
+    background: transparent !important;
+    color: #000 !important;
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important;
+    text-shadow: none !important; } }
+
+@font-face {
+  font-family: 'Glyphicons Halflings';
+  src: url("../fonts/bootstrap/glyphicons-halflings-regular.eot");
+  src: url("../fonts/bootstrap/glyphicons-halflings-regular.eot?#iefix") format("embedded-opentype"), url("../fonts/bootstrap/glyphicons-halflings-regular.woff2") format("woff2"), url("../fonts/bootstrap/glyphicons-halflings-regular.woff") format("woff"), url("../fonts/bootstrap/glyphicons-halflings-regular.ttf") format("truetype"), url("../fonts/bootstrap/glyphicons-halflings-regular.svg#glyphicons_halflingsregular") format("svg"); }
+
+* {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box; }
+
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box; }
+
+html {
+  font-size: 10px;
+  -webkit-tap-highlight-color: transparent; }
+
+body {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  line-height: 1.42857;
+  color: #333333;
+  background-color: #fff; }
+
+.container {
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 15px;
+  padding-right: 15px; }
+  .container:before, .container:after {
+    content: " ";
+    display: table; }
+  .container:after {
+    clear: both; }
+  @media (min-width: 768px) {
+    .container {
+      width: 750px; } }
+  @media (min-width: 992px) {
+    .container {
+      width: 970px; } }
+  @media (min-width: 1200px) {
+    .container {
+      width: 1170px; } }
+
+@-ms-viewport {
+  width: device-width; }
+
+.section-1 {
+  height: 100vh;
+  background-color: #ffffff;
+  overflow-x: hidden;
+  overflow-y: hidden; }
+
+.earth {
+  background-image: url(../img/map-final.svg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  bottom: 5%;
+  left: 5%;
+  position: absolute;
+  right: 5%;
+  top: 5%; }
+  @media screen and (max-width: 991px) {
+    .earth {
+      bottom: 0;
+      left: 50%;
+      margin-left: -495.5px;
+      right: 0;
+      top: 0;
+      width: 991px; } }
+
+.content-page-01 {
+  position: relative;
+  height: 100vh;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  -webkit-animation: circle 3s;
+  -webkit-animation-delay: 2s;
+  animation-delay: 2s;
+  opacity: 1;
+  z-index: 0; }
+
+div.main-sign {
+  position: relative;
+  top: 20.0%; }
+
+.f-bot:not(:focus):hover {
+  color: #ffffff;
+  background: #131c3a; }
+
+@media only screen and (max-width: 767px) {
+  .content-page-01 {
+    position: relative;
+    height: 100%; }
+  div.main-sign {
+    position: relative;
+    top: 17vh; } }
+
+@media only screen and (min-width: 100px) and (max-width: 736px) and (max-height: 736px) and (min-aspect-ratio: 1 / 1) {
+  .section-1 {
+    height: auto; }
+  .content-page-01 {
+    height: 100vh; } }
+
+/* HTML5 display-role reset for older browsers */
+
+body {
+  font-family: 'Montserrat', 'Open Sans', 'Roboto', 'Helvetica Neue', 'Segoe UI', Helvetica, Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  color: #62656c;
+  background-color: #FFFFFF;
+  overflow-x: hidden;
+  width: 100vw;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility; }
+
+::-webkit-scrollbar {
+  display: none; }
