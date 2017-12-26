@@ -171,7 +171,8 @@ margin: 0 auto 36px;
     .logo {
 	background: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMDQiIGhlaWdodD0iMTciIHZpZXdCb3g9IjAgMCAyMDQgMTciPiAgICA8ZyBmaWxsPSJub25lIiBmaWxsLXJ1bGU9ImV2ZW5vZGQiPiAgICAgICAgPHBhdGggZmlsbD0iI0ZGNTQwMCIgZD0iTTEwNi4xOCAxMy43OWgyNS4yMTZ2My4wMWgtMjguMzMzVjYuNzJoMjguMzMzVjkuOGgtMjUuMjE3djMuOTl6TTEwMy4wNjEgMGgyOC4zMzR2My4wMWgtMjguMzMzVjB6TTM4LjY3NSA5Ljh2N2gtMy4yNThWNi43OWgyNS4wNzVWMy4wMUgzNS40MTdWMEg2My43NXYxNi44aC0zLjI1OHYtN0gzOC42NzV6TTczLjkxNyAwdjEzLjcyaDIzLjEyNXYzLjA4SDcwLjgzM1YwaDMuMDg0em0tNDguNjMgMTMuNzlWOS44SDBWMGgyOC4zMzN2My4wMUgzLjA0NnYzLjc4aDI1LjI4N1YxNi44SDB2LTMuMDFoMjUuMjg3eiIvPiAgICAgICAgPHBhdGggZmlsbD0iIzhBOEE4QSIgZD0iTTE0MS41OTYgMTMuNzloMjUuMjE2djMuMDFIMTM4LjQ4VjYuNzJoMjguMzMzVjkuOGgtMjUuMjE2djMuOTl6TTEzOC40NzkgMGgyOC4zMzN2My4wMUgxMzguNDhWMHptNjQuNDU4IDB2OS44aC0xMC43NDNsMTEuNDUyIDdoLTYuMTYzbC0xMS40NTMtN2gtOC44NzZ2N2gtMy4yNThWNi43OWgyNS44NTRWMy4wMWgtMjUuODU0VjBoMjkuMDQyeiIvPiAgICA8L2c+PC9zdmc+) no-repeat;
 	width: 204px;
-	height: 16.8px;
+	height: 16.8px;    
+	margin: 25px auto 0;
 	}
     .title {
 	font-size: 22px;
@@ -179,5 +180,6 @@ margin: 0 auto 36px;
     .description {
 	font-size: 13px;
 	line-height: 1.66;
+	margin: 23px auto 0;
 	}
 }
