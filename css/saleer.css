@@ -209,5 +209,8 @@ border: none;
     .allRightsReserved {
 	font-size: 8px;
 	margin: 0 auto 23px;
-	}        
+	}
+	.container2 {
+    padding-bottom: 7px;
+}        
 }
