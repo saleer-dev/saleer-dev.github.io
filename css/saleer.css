@@ -53,6 +53,7 @@ body {
 	object-fit: contain;
 	text-align: center;
 	margin: 42px auto 0;
+	position: relative;
 }
 
 .title {
@@ -64,6 +65,7 @@ body {
 	color: #3e2854;
 	margin: 0 auto;
 	text-transform: uppercase;
+	position: relative;
 }
 
 .description {
@@ -74,6 +76,7 @@ body {
 	text-align: center;
 	color: #62656c;
 	margin: 39px auto 0;
+	position: relative;
 }
 
 a.openInTelegram {
@@ -95,9 +98,9 @@ a.openInTelegram {
 	background: linear-gradient(90deg, #ff3541, #fe9926);
 	-webkit-box-shadow: 0 4px 10px 1px rgba(0, 0, 0, 0.14);
 	box-shadow: 0 4px 10px 1px rgba(0, 0, 0, 0.14);
-	z-index: 1;
 	border-radius: 4px;
-	text-decoration: none
+	text-decoration: none;
+	position: relative;
 }
 
 a.openInTelegram:before {
@@ -109,6 +112,7 @@ a.openInTelegram:before {
 	object-fit: contain;
 	margin-right: 12.8px;
 	display: inline-block;
+	position: relative;
 }
 
 a.openInTelegram:hover {
@@ -134,7 +138,8 @@ a.howItWorks {
 	margin: 50px auto 0;
 	max-width: 180px;
 	z-index: 1;
-	text-decoration: none
+	text-decoration: none;
+	position: relative;
 }
 
 a.howItWorks:after {
@@ -146,6 +151,7 @@ a.howItWorks:after {
 	object-fit: contain;
 	margin-left: 11px;
 	display: inline-block;
+	position: relative;
 }
 
 a.howItWorks:hover {
@@ -168,6 +174,7 @@ border: none;
 	text-align: center;
 	color: #a5a4aa;
 	margin: 0 auto 36px;
+	position: relative;
 }
 
 @media screen and (max-width: 1000px) {
