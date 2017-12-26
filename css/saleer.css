@@ -251,10 +251,15 @@ a.openInTelegram:before {
 }
 a.openInTelegram:hover {
     cursor: pointer;
-    background-color: #FABD44;
+    opacity: 0.75;
 }
 a.openInTelegram:focus {
     outline: 0;
+}
+a.openInTelegram:active {
+    box-shadow: none;
+    outline: none;
+    border: none;
 }
 a.howItWorks {
     font-family: 'Open Sans';
