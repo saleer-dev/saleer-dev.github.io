@@ -9,6 +9,19 @@ body {
   text-rendering: optimizeLegibility;
 }
 
+@media screen and (max-width: 1000px) {
+    .map {
+      bottom: 0;
+      left: 50%;
+      margin-left: -495.5px;
+      right: 0;
+      top: 0;
+      width: 991px; }
+    .title {
+	    font-size: 39px;
+	}    
+}
+
 .page {
 	    display: -webkit-box;
     display: -webkit-flex;
@@ -43,8 +56,6 @@ body {
 }
 
 .title {
-	width: 855px;
-	height: 61px;
 	font-family: 'Montserrat';
 	font-size: 50px;
 	font-weight: 600;
@@ -56,8 +67,6 @@ body {
 }
 
 .description {
-	width: 513px;
-	height: 72px;
 	font-family: 'Open Sans';
 	font-size: 24px;
 	line-height: 1.5;
