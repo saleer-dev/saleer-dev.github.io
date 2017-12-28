@@ -76,7 +76,7 @@ body {
     overflow-y: hidden;
 }
 .earth {
-    background-image: url(https://saleer-dev.github.io/css/file/map-final.svg);
+    background-image: url(https://saleer-dev.github.io/file/map-final.svg);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: contain;
