@@ -1,14 +1,14 @@
 setTimeout(function () {
-        $('.section1').css('height', window.innerHeight + 'px');
+        $('.page, .section1').css('height', window.innerHeight + 'px');
         $(window).scrollTop(0);
     }, 50);
 
 $(window).on('resize', function() {
         $(window).scrollTop(0);
-        $('.section1').css('height', window.innerHeight + 'px');
+        $('.page, .section1').css('height', window.innerHeight + 'px');
 
         setTimeout(function() {
-            $('.section1').css('height', window.innerHeight + 'px');
+            $('.page, .section1').css('height', window.innerHeight + 'px');
             $(window).scrollTop(0);
         }, 400);
     });
